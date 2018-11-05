@@ -1,0 +1,29 @@
+nav {
+  background-color: darkgreen;
+  height: 53px;
+}
+
+body {
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+  padding-top: 16px;
+  position: absolute;
+}
+
+article {
+    margin-left: 15px;
+}
+
+article section {
+    margin-left: 15px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 20px;
+}
