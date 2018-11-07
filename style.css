@@ -1,18 +1,28 @@
-nav {
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
   background-color: darkgreen;
-  height: 53px;
+}
+
+nav li{
+  float: left;
+}
+nav li a:hover{
+  background-color: green;
 }
 
 body {
   margin: 0;
 }
 
-nav a {
+nav li a {
+  display: block;
   color: white;
+  text-align: center;
+  padding: 18px;
   text-decoration: none;
-  margin-left: 10px;
-  padding-top: 16px;
-  position: absolute;
 }
 
 article {
