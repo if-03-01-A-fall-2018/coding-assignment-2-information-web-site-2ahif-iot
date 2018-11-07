@@ -8,7 +8,9 @@ nav ul{
 
 nav li{
   float: left;
+  font-size: 20px;
 }
+
 nav li a:hover{
   background-color: green;
 }
@@ -26,14 +28,13 @@ nav li a {
 }
 
 article {
-    margin-left: 15px;
+  margin-left: 15px;
 }
 
 article section {
-    margin-left: 15px;
+  margin-left: 15px;
 }
 
 .title {
   font-weight: bold;
-  font-size: 20px;
 }
