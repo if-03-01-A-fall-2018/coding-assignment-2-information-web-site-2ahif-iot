@@ -46,3 +46,11 @@ article {
 article section {
   margin-left: 15px;
 }
+
+section a {
+  text-decoration: none;
+}
+
+.tabbed {
+  padding-left: 15px;
+}
