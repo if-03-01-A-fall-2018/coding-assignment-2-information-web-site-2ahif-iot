@@ -10,6 +10,14 @@ nav ul .active {
   background-color: #005200;
 }
 
+ul li .title {
+  font-weight: bold;
+}
+
+ul .nobullet {
+  list-style-type: none;
+}
+
 nav li {
   float: left;
   font-size: 20px;
@@ -37,8 +45,4 @@ article {
 
 article section {
   margin-left: 15px;
-}
-
-.title {
-  font-weight: bold;
 }
