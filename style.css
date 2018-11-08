@@ -1,4 +1,4 @@
-nav ul{
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -6,12 +6,16 @@ nav ul{
   background-color: darkgreen;
 }
 
-nav li{
+nav ul .active {
+  background-color: #005200;
+}
+
+nav li {
   float: left;
   font-size: 20px;
 }
 
-nav li a:hover{
+nav li a:hover {
   background-color: green;
 }
 
