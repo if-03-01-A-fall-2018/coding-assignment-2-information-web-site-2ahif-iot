@@ -39,6 +39,16 @@
         <p>As you can see, these passwords are not secure at all.</p>
         <p>In October 2016, the Mirai bot net executed a <a href="https://en.wikipedia.org/wiki/2016_Dyn_cyberattack">DDoS attack to Dyn</a>'s DNS servers.<br>
         Websites like Amazon, GitHub, Slack, Twitter, Spotify and more were down for several hours.</p>
+
+        <h3>Forwarded ports</h3>
+        <p>Port forwardings are a major issue too.<br>Without forwarded ports, Mirai wouldn't have happened.</p>
+        <p><a href="https://en.wikipedia.org/wiki/Universal_Plug_and_Play#Problems_with_UPnP">UPnP</a> is a protocol for easier port handling.<br>
+        It does not require any authentication - any device can forward ports.</p>
+        <p>IoT search engines use exactly this issue.<br>
+          These search engines scan the entire net for open ports and add them to their search index.<br>
+        Here's a screenshot of the most popular one, <a href="https://www.shodan.io">shodan.io</a>.</p>
+
+        <img src="img/shodan.png" alt="Screenshot of shodan.io" style="width: 50%; height: 50%">
       </section>
     </article>
   </body>
