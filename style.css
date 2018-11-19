@@ -51,6 +51,16 @@ section a {
   text-decoration: none;
 }
 
+img.board {
+  width: 10%;
+  height: 10%;
+}
+
+img.screenshot {
+  width: 50%;
+  height: 50%;
+}
+
 .tabbed {
   padding-left: 15px;
 }
