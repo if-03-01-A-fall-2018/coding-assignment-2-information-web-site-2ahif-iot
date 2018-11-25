@@ -35,6 +35,19 @@
       <section>
         <h2>Demonstration</h2>
         <p>We'll buy a Dash Button and show how it works.</p>
+        <p>The intended use for an Amazon Dash Button is to buy a product just by tapping on the button.<br>
+        This can't be done with magic. It has to connect to the internet using a Wifi network.<br>
+        After that, it automatically orders the selected product.</p>
+
+        <h2>"Hacking" it</h2>
+        <p>People across the internet found ways to use the Dash Button for their own projects.<br>
+          The button replies to ping/ICMP requests and gets an IP address via DHCP.</p>
+
+        <p><b>Pinging the button</b> every X seconds is a nice way to detect a button press.<br>
+          A Raspberry Pi or another server could then execute a specified task, e.g. turning the lights on.</p>
+
+        <p>After integrating it into a running system, disallowing internet access wouldn't be a bad idea.<br>
+          Amazon doesn't have to trace every button press!</p>
       </section>
     </article>
   </body>
