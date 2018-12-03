@@ -30,6 +30,7 @@ img.board {
 img.screenshot {
   width: 50%;
   height: 50%;
+  padding-bottom: 1.5em;
 }
 
 img.img-fluid {
