@@ -41,3 +41,7 @@ img.img-fluid {
 .tabbed {
   padding-left: 15px;
 }
+
+p, dd, dt, li {
+  font-size: 20px;
+}
