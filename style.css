@@ -45,3 +45,9 @@ img.img-fluid {
 p, dd, dt, li {
   font-size: 20px;
 }
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
